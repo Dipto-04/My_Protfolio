@@ -147,18 +147,18 @@ export default function App() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { skill: 'C', level: 85 },
-              { skill: 'C++', level: 80 },
-              { skill: 'Java', level: 75 },
-              { skill: 'Python', level: 85 },
-              { skill: 'HTML/CSS', level: 88 },
-              { skill: 'JavaScript', level: 80 },
+              { skill: 'C', level: 50 },
+              { skill: 'C++', level: 65 },
+              { skill: 'Java', level: 40 },
+              { skill: 'Python', level: 90 },
+              { skill: 'HTML/CSS', level: 80 },
+              { skill: 'JavaScript', level: 60 },
               { skill: 'Git/GitHub', level: 90 },
-              { skill: 'Linux', level: 80 },
-              { skill: 'Networking', level: 75 },
-              { skill: 'Cybersecurity', level: 70 },
-              { skill: 'AI/ML', level: 75 },
-              { skill: 'Video Editing', level: 85 },
+              { skill: 'Linux', level: 50 },
+              { skill: 'Networking', level: 20 },
+              { skill: 'Cybersecurity', level: 20 },
+              { skill: 'AI/ML', level: 30 },
+              { skill: 'Video Editing', level: 80 },
             ].map(({ skill, level }) => (
               <div
                 key={skill}
