@@ -1,4 +1,4 @@
-import profilePic from './assets/profile.svg'
+import profilePic from './assets/Profile.jpg'
 
 export default function App() {
   return (
