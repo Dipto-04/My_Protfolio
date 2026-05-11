@@ -4,23 +4,39 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-gray-100">
 
-      {/* Navbar */}
-      <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md border-b border-purple-500/20 z-50 shadow-lg">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-3xl font-bold">
-            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
-              Dipta Dey
-            </span>
-          </h1>
+     {/* Navbar */}
+<nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md border-b border-purple-500/20 z-50 shadow-lg overflow-hidden">
+  
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
 
-          <div className="hidden md:flex gap-8 text-sm text-gray-300">
-            <a href="#about" className="hover:text-purple-400 transition font-semibold">About</a>
-            <a href="#skills" className="hover:text-purple-400 transition font-semibold">Skills</a>
-            <a href="#projects" className="hover:text-purple-400 transition font-semibold">Projects</a>
-            <a href="#contact" className="hover:text-purple-400 transition font-semibold">Contact</a>
-          </div>
-        </div>
-      </nav>
+    {/* Logo */}
+    <h1 className="text-2xl sm:text-3xl font-bold text-center break-words">
+      <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
+        Dipta Dey
+      </span>
+    </h1>
+
+    {/* Menu */}
+    <div className="flex flex-wrap justify-center gap-4 sm:gap-8 text-sm text-gray-300">
+      <a href="#about" className="hover:text-purple-400 transition font-semibold">
+        About
+      </a>
+
+      <a href="#skills" className="hover:text-purple-400 transition font-semibold">
+        Skills
+      </a>
+
+      <a href="#projects" className="hover:text-purple-400 transition font-semibold">
+        Projects
+      </a>
+
+      <a href="#contact" className="hover:text-purple-400 transition font-semibold">
+        Contact
+      </a>
+    </div>
+
+  </div>
+</nav>
 
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 pt-24 relative overflow-hidden">
