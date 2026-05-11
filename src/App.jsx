@@ -30,10 +30,19 @@ export default function App() {
 
         <div className="max-w-7xl w-full grid lg:grid-cols-2 gap-16 items-center relative z-10">
           <div>
-          <div class="inline-block px-4 py-2 rounded-full border border-purple-500/40 bg-purple-500/10 text-purple-300 mb-8 font-semibold">
-  🔐 Cybersecurity | 🤖 AI/ML | 🎬 Creative Developer
-</div>
+          <div class="w-full flex justify-center px-4">
+  <div class="flex flex-wrap justify-center items-center gap-2 max-w-full px-4 py-3 rounded-2xl border border-purple-500/40 bg-purple-500/10 text-purple-300 font-semibold text-center text-sm sm:text-base break-words">
+    
+    <span>🔐 Cybersecurity</span>
+    <span class="hidden sm:inline">|</span>
 
+    <span>🤖 AI/ML</span>
+    <span class="hidden sm:inline">|</span>
+
+    <span>🎬 Creative Developer</span>
+
+  </div>
+</div>
             <h1 className="text-6xl md:text-7xl font-black leading-tight mb-8 text-white">
               Hi, I'm{' '}
               <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
